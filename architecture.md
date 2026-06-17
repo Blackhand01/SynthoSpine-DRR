@@ -100,11 +100,11 @@ reports/real_split_comparison.md
 ```bash
 python -m src.render3d \
   --npz runs/view_overfit_real/volumes/prediction_target.npz \
-  --output-dir reports/recruiter_assets
+  --output-dir reports/reconstruction_assets
 
 python -m src.mesh3d \
   --npz runs/view_overfit_real/volumes/prediction_target.npz \
-  --output-dir reports/recruiter_assets
+  --output-dir reports/reconstruction_assets
 ```
 
 Typical outputs:
@@ -132,7 +132,7 @@ src/training/    overfit, subset, and real train/validation loops
 src/evaluation/  metrics, reporting, visualization, mesh export
 configs/         reproducible run configs
 notebooks/       Kaggle execution notebook
-reports/         showcase and recruiter-facing assets
+reports/         visual assets and experiment summaries
 ```
 
 ## Limitations

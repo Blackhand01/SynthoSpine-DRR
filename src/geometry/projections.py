@@ -41,7 +41,7 @@ def adjust_projection_for_crop(
     crop_x_px: float,
     crop_y_px: float,
 ) -> ProjectionMatrix:
-    """Apply the X23D crop adjustment P_hat = Q @ P."""
+    """Apply crop-adjusted projection P_hat = Q @ P."""
 
     q = np.array(
         [[1.0, 0.0, -crop_x_px], [0.0, 1.0, -crop_y_px], [0.0, 0.0, 1.0]],
@@ -76,4 +76,3 @@ def perturb_projection(
     matrix[0, 2] += tx_delta_px
     matrix[1, 2] += ty_delta_px
     return ProjectionMatrix(matrix, projection.coordinate_frame, f"{projection.source}:perturbed")
-

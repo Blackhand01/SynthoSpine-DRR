@@ -1,7 +1,7 @@
 [project]
 name = "spine2space"
 version = "0.1.0"
-description = "Geometry-aware sparse X-ray to 3D reconstruction MVP inspired by X23D."
+description = "Geometry-aware sparse X-ray to 3D reconstruction prototype."
 requires-python = ">=3.11"
 dependencies = [
     "numpy",

@@ -1,14 +1,14 @@
 # Spine2Space
 
-Med-tech 3D reconstruction showcase from sparse CT-derived X-ray/DRR views.
+Med-tech 3D reconstruction prototype from sparse CT-derived X-ray/DRR views.
 
-Spine2Space explores a practical 2D-to-3D medical-imaging workflow: CTSpine1K data, DRR-style views, PyTorch reconstruction, and inspectable 3D mesh exports. It is a research prototype and visual portfolio piece, not a clinical product.
+Spine2Space explores a practical 2D-to-3D medical-imaging workflow: CTSpine1K data, DRR-style views, PyTorch reconstruction, and inspectable 3D mesh exports. It is a research prototype, not a clinical product.
 
 ![Thoracolumbar mesh showcase](reports/showcase_assets/full_spine_lumbar_showcase.gif)
 
-## Showcase
+## Visual Demo
 
-The repo includes a visual 3D milestone: a thoracolumbar/lumbar mesh exported from CTSpine1K segmentation labels. It is meant to make the 3D construction pipeline immediately visible to recruiters, med-tech teams, and computer-vision reviewers.
+The repo includes a visual 3D milestone: a thoracolumbar/lumbar mesh exported from CTSpine1K segmentation labels. It makes the 3D construction pipeline inspectable without requiring a full training run.
 
 Open or download:
 
@@ -20,21 +20,21 @@ Open or download:
 
 Sparse CT-derived DRR views:
 
-![DRR views](reports/recruiter_assets/01_drr_2d_views_strip.png)
+![DRR views](reports/reconstruction_assets/01_drr_2d_views_strip.png)
 
 Reconstruction/target visual checks:
 
-![Prediction target overlay](reports/recruiter_assets/02_prediction_target_overlay_axial.png)
+![Prediction target overlay](reports/reconstruction_assets/02_prediction_target_overlay_axial.png)
 
 Smooth mesh export:
 
-![Smooth mesh rotation](reports/recruiter_assets/15_mesh_rotation.gif)
+![Smooth mesh rotation](reports/reconstruction_assets/15_mesh_rotation.gif)
 
 Interactive assets:
 
-- `reports/recruiter_assets/11_reconstruction_interactive.html`
-- `reports/recruiter_assets/14_L3_mesh_comparison_interactive.html`
-- `reports/recruiter_assets/15_mesh_rotation.mp4`
+- `reports/reconstruction_assets/11_reconstruction_interactive.html`
+- `reports/reconstruction_assets/14_L3_mesh_comparison_interactive.html`
+- `reports/reconstruction_assets/15_mesh_rotation.mp4`
 
 ## What This Demonstrates
 
@@ -47,7 +47,7 @@ Interactive assets:
 
 ## Current Status
 
-The visual demo is intentionally separated from model-quality claims. The showcase makes the 3D pipeline visible; the serious held-out validation results will live in `report.md` once the final Kaggle run is complete.
+The visual demo is intentionally separated from model-quality claims. The mesh assets make the 3D pipeline visible; the held-out validation results are tracked separately in experiment reports.
 
 Latest Kaggle validation snapshot:
 

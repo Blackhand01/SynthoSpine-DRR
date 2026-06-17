@@ -1,4 +1,4 @@
-"""PyTorch layers for the X23D-like baseline."""
+"""PyTorch layers for the sparse multi-view reconstruction baseline."""
 
 from __future__ import annotations
 

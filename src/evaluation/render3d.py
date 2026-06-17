@@ -1,4 +1,4 @@
-"""3D recruiter visualizations for predicted and target volumes."""
+"""3D visualizations for predicted and target volumes."""
 
 from __future__ import annotations
 

@@ -61,9 +61,9 @@ The 50-pair output is visibly more localized. It still predicts extra volume, bu
 | 20 pairs | First held-out real split | Metrics export, patient split, failure visibility | Reliable reconstruction |
 | 50 pairs | Stronger micro-dataset | Meaningful held-out signal and better surface distances | Clinical-grade accuracy |
 
-## Recruiter Framing
+## Interpretation
 
-The honest message is: increasing the micro-dataset size materially improved held-out reconstruction quality. The system is not clinically validated, but the pipeline now demonstrates the engineering loop X23D cares about: data ingestion, DRR generation, projection-aware modeling, patient-level validation, metric tracking, and 3D artifact export.
+Increasing the micro-dataset size materially improved held-out reconstruction quality. The system is not clinically validated, but the pipeline now demonstrates the full experimental loop: data ingestion, DRR generation, projection-aware modeling, patient-level validation, metric tracking, and 3D artifact export.
 
 Useful 50-pair assets:
 

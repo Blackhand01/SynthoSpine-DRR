@@ -23,11 +23,10 @@ class VolumeConfig:
 
 @dataclass(frozen=True)
 class ModelConfig:
-    """Small X23D-like baseline configuration."""
+    """Small sparse multi-view baseline configuration."""
 
     views: int = 4
     image: ImageConfig = ImageConfig()
     volume: VolumeConfig = VolumeConfig()
     base_channels: int = 8
     feature_channels: int = 16
-

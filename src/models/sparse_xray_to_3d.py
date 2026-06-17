@@ -1,4 +1,4 @@
-"""X23D-like sparse multi-view reconstruction baseline."""
+"""Sparse multi-view 2D-to-3D reconstruction baseline."""
 
 from __future__ import annotations
 

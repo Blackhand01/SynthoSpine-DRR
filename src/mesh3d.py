@@ -11,7 +11,7 @@ from .evaluation.mesh import export_mesh_assets
 def main() -> None:
     parser = argparse.ArgumentParser(description="Export smooth 3D reconstruction mesh assets.")
     parser.add_argument("--npz", type=Path, default=Path("runs/view_overfit_real/volumes/prediction_target.npz"))
-    parser.add_argument("--output-dir", type=Path, default=Path("reports/recruiter_assets"))
+    parser.add_argument("--output-dir", type=Path, default=Path("reports/reconstruction_assets"))
     parser.add_argument("--level", type=float, default=0.5)
     parser.add_argument("--sigma", type=float, default=0.7)
     args = parser.parse_args()
