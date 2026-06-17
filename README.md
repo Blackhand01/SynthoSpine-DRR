@@ -1,4 +1,4 @@
-# Spine2Space
+# SynthoSpine-DRR
 
 Med-tech 3D reconstruction prototype from sparse CT-derived X-ray/DRR views.
 
