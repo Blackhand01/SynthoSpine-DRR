@@ -52,7 +52,7 @@ def write_markdown_report(summary: dict[str, Any], path: Path) -> None:
         "",
         "## Notes",
         "",
-        "- Synthetic placeholder data validates contracts, geometry, metrics, and forward pass.",
-        "- Full clinical claims require CT/DRR integration, real calibration data, and patient-level splits.",
+        "- This report compares the exported prediction with the paired 3D target volume.",
+        "- Full clinical claims require real calibration data, larger patient-level splits, and external validation.",
     ]
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

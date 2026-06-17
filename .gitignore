@@ -209,6 +209,7 @@ runs/
 # reports/
 checkpoints/
 kaggle_outputs/
+kaggle_outputs*/
 .DS_Store
 **/.DS_Store
 
