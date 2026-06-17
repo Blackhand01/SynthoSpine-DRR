@@ -67,6 +67,7 @@ Architecture, commands, pipeline diagrams, and Kaggle execution notes are docume
 
 - [architecture.md](architecture.md)
 - `notebooks/kaggle_real_reconstruction.ipynb`
+- [real_split_comparison.md](https://github.com/Blackhand01/SynthoSpine-DRR/blob/main/reports/real_split_comparison.md)
 
 ## Scope
 
