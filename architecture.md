@@ -4,18 +4,7 @@ This document keeps the technical details out of the README and describes how th
 
 ## System Overview
 
-```mermaid
-flowchart LR
-    A[CTSpine1K CT volume] --> B[CT / mask loader]
-    B --> C[Vertebra target extraction]
-    C --> D[CT-intensity crop]
-    D --> E[DRR proxy generation]
-    E --> F[4 sparse 2D views]
-    C --> G[64^3 target occupancy]
-    F --> H[PyTorch sparse X-ray-to-3D model]
-    G --> I[Metrics and mesh export]
-    H --> I
-```
+![End-to-end reconstruction pipeline](reports/architecture_assets/pipeline_overview.png)
 
 ## Data Contract
 
@@ -34,14 +23,7 @@ The current CTSpine vertebra target uses label `22` for `L3`.
 
 ## Model Path
 
-```mermaid
-flowchart LR
-    A[4 DRR views] --> B[2D encoder]
-    B --> C[Differentiable backprojection]
-    C --> D[Multi-view fusion]
-    D --> E[3D refiner]
-    E --> F[3D occupancy probabilities]
-```
+![Model path](reports/architecture_assets/model_path.png)
 
 Implemented baseline:
 
@@ -52,16 +34,7 @@ The model is deliberately small. It is meant to validate the data/model/evaluati
 
 ## Evaluation Path
 
-```mermaid
-flowchart TD
-    A[Prediction volume] --> C[Voxel metrics]
-    B[Target volume] --> C
-    A --> D[Surface extraction]
-    B --> D
-    D --> E[cKDTree ASSD / HD95 / HD99]
-    A --> F[PLY / GIF / HTML mesh assets]
-    B --> F
-```
+![Evaluation path](reports/architecture_assets/evaluation_path.png)
 
 Metrics:
 

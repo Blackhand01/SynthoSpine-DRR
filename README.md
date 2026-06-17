@@ -67,7 +67,6 @@ Architecture, commands, pipeline diagrams, and Kaggle execution notes are docume
 
 - [architecture.md](architecture.md)
 - `notebooks/kaggle_real_reconstruction.ipynb`
-- `docs/kaggle_real_reconstruction.md`
 
 ## Scope
 
