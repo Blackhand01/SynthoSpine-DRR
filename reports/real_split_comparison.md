@@ -45,6 +45,12 @@ This report compares the saved Kaggle real-split outputs. The 2-patient phase wa
 
 ![Qualitative comparison](comparison_assets/qualitative_comparison.png)
 
+Overlay color legend:
+
+- **Yellow**: prediction and ground truth overlap. This is the correctly reconstructed region.
+- **Red**: prediction only. This is false positive extra volume, meaning the model reconstructed anatomy where the target has no bone.
+- **Green**: ground truth only. This is false negative missed target, meaning real target bone was not reconstructed.
+
 The 50-pair output is visibly more localized. It still predicts extra volume, but the target structure is captured much more consistently than in the 20-pair run.
 
 ## Scale Interpretation
