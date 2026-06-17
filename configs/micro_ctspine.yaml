@@ -1,0 +1,8 @@
+data_root: data/raw/ctspine1k
+processed_root: data/processed/micro_ctspine
+max_patients: 20
+seed: 23
+crop_size: 128
+volume_size: 64
+views: ap,lateral,oblique,misc
+

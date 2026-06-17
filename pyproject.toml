@@ -1,0 +1,39 @@
+[project]
+name = "spine2space"
+version = "0.1.0"
+description = "Geometry-aware sparse X-ray to 3D reconstruction MVP inspired by X23D."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "Pillow",
+    "psutil",
+    "scipy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+model = [
+    "torch",
+]
+medical = [
+    "SimpleITK",
+]
+plots = [
+    "matplotlib",
+]
+data = [
+    "huggingface_hub",
+]
+visualization = [
+    "imageio",
+    "matplotlib",
+    "plotly",
+    "scikit-image",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["src"]
+pythonpath = ["src"]
+python_files = ["test_*.py"]

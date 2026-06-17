@@ -1,0 +1,6 @@
+output_dir: runs/overfit_synthetic
+volume_size: 16
+crop_size: 128
+steps: 160
+learning_rate: 0.03
+target_f1: 0.90

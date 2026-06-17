@@ -1,0 +1,8 @@
+output_dir: runs/overfit_real
+manifest_path: data/processed/micro_ctspine/manifest.jsonl
+sample_index: 0
+steps: 120
+learning_rate: 0.03
+target_f1: 0.90
+loss: balanced
+

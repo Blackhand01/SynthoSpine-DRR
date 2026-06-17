@@ -203,6 +203,12 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Spine2Space local data and experiment outputs
+data/
+runs/
+reports/
+checkpoints/
+
 # Ruff stuff:
 .ruff_cache/
 
@@ -216,3 +222,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+blueprint.md
+
+# Local medical datasets
+data/
