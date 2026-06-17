@@ -1,0 +1,5 @@
+train_manifest: data/processed/real_split/manifest_train.jsonl
+val_manifest: data/processed/real_split/manifest_val.jsonl
+output_dir: runs/real_split_train
+epochs: 25
+learning_rate: 0.001

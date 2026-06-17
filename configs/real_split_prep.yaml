@@ -1,0 +1,7 @@
+data_root: data/raw/ctspine1k
+processed_root: data/processed/real_split
+max_patients: 50
+seed: 23
+crop_size: 128
+volume_size: 64
+views: ap,lateral,oblique,misc

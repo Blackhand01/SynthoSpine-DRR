@@ -204,10 +204,13 @@ cython_debug/
 tempCodeRunnerFile.py
 
 # Spine2Space local data and experiment outputs
-data/
+/data/
 runs/
-reports/
+# reports/
 checkpoints/
+kaggle_outputs/
+.DS_Store
+**/.DS_Store
 
 # Ruff stuff:
 .ruff_cache/
@@ -225,4 +228,4 @@ __marimo__/
 blueprint.md
 
 # Local medical datasets
-data/
+/data/
