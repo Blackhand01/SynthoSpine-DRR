@@ -89,6 +89,12 @@ Kaggle notebook:
 notebooks/kaggle_real_reconstruction.ipynb
 ```
 
+Saved progression analysis:
+
+```text
+reports/real_split_comparison.md
+```
+
 ## 3D Asset Export
 
 ```bash
