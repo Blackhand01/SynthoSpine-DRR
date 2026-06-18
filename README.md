@@ -66,8 +66,8 @@ Interpretation: early R&D signal with high recall and low precision. Not clinica
 Architecture, commands, pipeline diagrams, and Kaggle execution notes are documented in:
 
 - [architecture.md](architecture.md)
-- `notebooks/kaggle_real_reconstruction.ipynb`
-- [real_split_comparison.md](https://github.com/Blackhand01/SynthoSpine-DRR/blob/main/reports/real_split_comparison.md)
+- [notebook.ipynb](notebooks/kaggle_real_reconstruction.ipynb)
+- [real_split_comparison.md](reports/real_split_comparison.md)
 
 ## Scope
 
