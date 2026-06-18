@@ -67,5 +67,4 @@ Increasing the micro-dataset size materially improved held-out reconstruction qu
 
 Useful 50-pair assets:
 
-- `reports/comparison_assets/50_pairs_14_mesh_comparison_interactive.html`
-- `reports/comparison_assets/50_pairs_15_mesh_rotation.gif`
+![Useful 50-pair assets](comparison_assets/50_pairs_15_mesh_rotation.gif)
